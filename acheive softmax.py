@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import time
 import numpy as np
 import sys
-sys.path.append('F:/anaconda3/Lib/site-packages')  # 为了导入上层目录的d2lzh_pytorch
+sys.path.append('F:/anaconda3/Lib/site-packages') 
 import d2lzh_pytorch as d2l
 
 
@@ -72,7 +72,7 @@ def evaluate_accuracy(data_iter, net):
 '''
 num_epochs, lr = 5, 0.1
 
-# 本函数已保存在d2lzh包中方便以后使用
+
 def train_ch3(net, train_iter, test_iter, loss, num_epochs, batch_size,
               params=None, lr=None, optimizer=None):
     for epoch in range(num_epochs):
